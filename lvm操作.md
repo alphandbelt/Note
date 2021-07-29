@@ -13,3 +13,4 @@ for i in  /proc/[0-9]* ; do echo $i >> /tmp/mountinfo ;  \ grep -q "/dev/mapper/
 ```sh
 grep -B 1 '^0$' /tmp/mountinfo
 ```
+

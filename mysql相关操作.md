@@ -95,6 +95,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'NEWPASSWD';
 
 ## 修改mysql的数据目录
 
-```sh
+```bash
 https://blog.csdn.net/ruanhao1203/article/details/52242438
 ```
+

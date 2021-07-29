@@ -32,3 +32,4 @@ GRANT ALL PRIVILEGES ON *.* TO 'nss'@'localhost'; CREATE DATABASE nss_db;"
 ```sh
 nats-streaming-server -store sql -sql_driver mysql -sql_source "nss:password@/nss_db?readTimeout=5s&writeTimeout=5s" 
 ```
+
