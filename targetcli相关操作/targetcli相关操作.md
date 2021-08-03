@@ -22,7 +22,7 @@ cd /backstores/fileio/create disk0 /tmp/disk0.img 10MBcd /backstores/ramdisk/cre
 #### 创建target
 
 ```sh
- cd /iscsicd create   （创建完之后portal自动创建）
+ cd /iscsicd create （创建完之后portal自动创建）
 ```
 
 #### 设置 ACL 
@@ -60,28 +60,28 @@ saveconfig
 
 <br/>
 
-## 发起端（initiator）
+### 发起端（initiator）
 
-###  查看自己的IQN
+#### 查看自己的IQN
 
 ```sh
 cat /etc/iscsi/initiatorname.iscsi
 ```
 
-### 添加发现
+#### 添加发现
 
 ```sh
 iscsiadm -m discovery -t sendtargets -p 192.168.50.145:3260
 ```
 
-### 登录
+#### 登录
 
 ```sh
 iscsiadm --mode node --targetname iqn.2003-01.org.linux-iscsi.localhost.x8664:sn.46377ffefd36 \
 --portal 192.168.50.145 --login
 ```
 
-### 查看映射的设备
+#### 查看映射的设备
 
 ```sh
 lsblk
@@ -91,11 +91,16 @@ lsblk
 
 <br/>
 
-### 格式化，挂载设备使用
+#### 格式化，挂载设备使用
 
-### 登出(任选一个)
+#### 登出(任选一个)
 
 ```sh
 iscsiadm --mode node --target <IQN> --portal x.x.x.x --logout
 iscsiadm --mode node --logoutall=all
 ```
+
+------
+
+
+
