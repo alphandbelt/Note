@@ -1,4 +1,4 @@
-## windows将是将改成按秒显示
+## windows将时间改成按秒显示
 
 ![image-20210809134505395](https://raw.githubusercontent.com/alphandbelt/Note/main/img/image-20210809134505395.png)
 
