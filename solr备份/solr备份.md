@@ -24,7 +24,7 @@ tar -xvzf solr-8.9.0.tar.gz
 
 默认的端口是8983, 启动后在浏览器访问可以看到相关配置
 
-![截图](b7712f50f84488e5cbd198e5c8d3050c.png)
+![截图](D:/alphandbeltWorkspace/companyWork/gitNote/Note/solr%E5%A4%87%E4%BB%BD/b7712f50f84488e5cbd198e5c8d3050c.png)
 
 <br/>
 
@@ -36,7 +36,7 @@ bin/solr create -c core_test1
 
 添加完成后在界面上选择创建的core就可以看到相应的信息
 
-![截图](512439e5d78e25edc2f79be65605bfc3.png)
+![截图](D:/alphandbeltWorkspace/companyWork/gitNote/Note/solr%E5%A4%87%E4%BB%BD/512439e5d78e25edc2f79be65605bfc3.png)
 
 ## 删除core
 
@@ -44,7 +44,7 @@ bin/solr create -c core_test1
 bin/solr delete -c core_test1 
 ```
 
-![截图](efddc53926da7d4d9fd4ec7c55f7e25a.png)
+![截图](D:/alphandbeltWorkspace/companyWork/gitNote/Note/solr%E5%A4%87%E4%BB%BD/efddc53926da7d4d9fd4ec7c55f7e25a.png)
 
 <br/>
 
