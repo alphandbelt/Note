@@ -1,0 +1,4 @@
+从本地安装插件
+setting -> plugins -> install plugin from disk 
+点击help，最下面 Eval Reset 
+勾选 auto reset after per restart
