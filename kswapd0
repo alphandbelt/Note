@@ -1,4 +1,4 @@
-ubuntu14 kswapd0占了太多的CPU
+## ubuntu14 kswapd0占了太多的CPU
 
 
 sudo swapoff /swapfile
