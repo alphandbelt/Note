@@ -1,4 +1,4 @@
-## ubuntu修改交换分区后启动慢解决
+## Ubuntu修改交换分区后启动慢解决
 ### 适用于修改后的磁盘uuid不一致的情况
 * 使用lsblk -f 查看磁盘对应的交换分区
 
@@ -7,7 +7,14 @@
 
   ![圖片](https://user-images.githubusercontent.com/28209685/135010203-85dde139-aeab-4890-a3e3-68f7c0ab0ce9.png)
   
+ * 完成后需要登出一下
+  
 ### 如何排查出这个问题
 * 首先查看启动时的job,找到waiting的那一项,看看具体是哪个,然后再进行具体的排查
   ```bash 
   systemctl list-jobs
+  
+
+***
+### 在装了Ubuntu后发现拖动文件之后的大小不对
+* 重新安装下vmware-tools即可
