@@ -6,3 +6,8 @@
 * 编辑/etc/fstab将交换分区对应的uuid改为上一步查询出来的
 
   ![圖片](https://user-images.githubusercontent.com/28209685/135010203-85dde139-aeab-4890-a3e3-68f7c0ab0ce9.png)
+  
+### 如何排查
+* 首先查看启动时的job
+  ```bash 
+  systemctl list-jobs
