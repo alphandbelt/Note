@@ -11,9 +11,8 @@
   
 ### 如何排查出这个问题
 * 首先查看启动时的job,找到waiting的那一项,看看具体是哪个,然后再进行具体的排查
-  ```bash systemctl list-jobs
-  
-
+  ```bash 
+  systemctl list-jobs
 ***
 ### 在装了Ubuntu后发现拖动文件之后的大小不对
 * 重新安装下vmware-tools即可
